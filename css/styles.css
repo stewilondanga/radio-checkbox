@@ -113,11 +113,12 @@ body {
   transition: all 0.15s ease;
 }
 
-/*.forms input[type="checkbox"]:checked + .cbx {
+.forms input[type="checkbox"]:checked+.cbx {
   background-color: #606062;
   background-image: linear-gradient(#255cd2, #1d52c1);
 }
-.forms input[type="checkbox"]:checked + .cbx svg {
+
+/*.forms input[type="checkbox"]:checked + .cbx svg {
   stroke-dashoffset: 0;
   transition: all 0.15s ease;
 }
