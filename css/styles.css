@@ -91,12 +91,13 @@ body {
   user-select: none;
 }
 
-/*.forms label {
+.forms label {
   display: inline-block;
   margin: 10px;
   cursor: pointer;
 }
-.forms input[type="checkbox"],
+
+/*.forms input[type="checkbox"],
 .forms input[type="radio"] {
   position: absolute;
   opacity: 0;
