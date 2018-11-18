@@ -81,12 +81,12 @@ body {
   transform: scale(0);
 }
 
-/*.cbx + span,
-.rdo + span {
+.cbx+span, .rdo+span {
   float: left;
   margin-left: 6px;
 }
-.forms {
+
+/*.forms {
   margin: auto;
   user-select: none;
 }
