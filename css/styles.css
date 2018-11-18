@@ -86,11 +86,12 @@ body {
   margin-left: 6px;
 }
 
-/*.forms {
+.forms {
   margin: auto;
   user-select: none;
 }
-.forms label {
+
+/*.forms label {
   display: inline-block;
   margin: 10px;
   cursor: pointer;
