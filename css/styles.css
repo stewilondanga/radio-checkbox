@@ -2,6 +2,16 @@ html, body {
   height: 100%;
 }
 
+body {
+  display: grid;
+  font-family: -apple-system, BlinkMacSystemFont, "myriad-pro", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #2b2b2d;
+  color: #c5c5c7;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -25,15 +35,6 @@ html, body {
   height: 1.5em;
 }
 
-body {
-  display: grid;
-  font-family: -apple-system, BlinkMacSystemFont, "myriad-pro", sans-serif;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #2b2b2d;
-  color: #c5c5c7;
-}
 .cbx {
   position: relative;
   display: block;
